@@ -142,7 +142,7 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
+    color: #3C3C3C;
     padding: 0px 5% 10px;
 }
 
@@ -176,8 +176,36 @@ p{
 }
 /*background-image: url("../img/Logo/logo.png");*/
 
+.borde{
+    border: solid;
+    border-width: 1px;
+    border-color: #f2efef;
 
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 
+    -webkit-box-shadow: 0 2px 1px 0 #CCCCCC;
+    box-shadow: 0 2px 1px 0 #CCCCCC;
+
+    padding: 8px;
+}
+.borde:hover{
+    
+
+    border-color: #006699;
+    -webkit-box-shadow: 0 2px 1px 0 #006699;
+    box-shadow: 0 2px 1px 0 #006699;
+
+    -moz-transform: translateY(-12px);
+    -webkit-transform: translateY(-12px);
+    -o-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    transform: translateY(-12px);
+}
+.parrafo{
+    font-size: 0.9em;
+
+}
 
 
 
