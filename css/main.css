@@ -17,12 +17,12 @@ html {
 }
 
 hr {
-    display: block;
+/*    display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    margin: 0;
+    padding: 0;*/
 }
 
 audio,
@@ -57,7 +57,8 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Lato, Helvetica Neue, Helvetica, sans-serif, Arial;
+    /*font: 16px/26px 'Open Sans', Helvetica Neue, Helvetica, sans-serif, Arial;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -75,17 +76,18 @@ body {
 
 .footer-container,
 .main aside {
-    border-top: 5px solid #1D1D1D;
+    border-top: 5px solid #2A4D68;
 }
 
 .header-container,
 .main aside {
-    background: #fff;
+    /*background: #000;*/
+    margin-bottom: 20px;
 }
 .footer-container
 {
 
-    background: #3C3C3C;
+    background: #1C1C1C;
 }
 
 .title {
@@ -116,15 +118,17 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: lighter;
 
     color: white;
     background: #1D1D1D;
+
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: #CCCCCC;
+
 }
 
 nav a:hover {
@@ -140,7 +144,9 @@ nav a:hover {
 }
 
 .main article h1 {
-    font-size: 2em;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #2A4D68;
 }
 
 .main aside {
@@ -169,7 +175,17 @@ nav a:hover {
 
 p{
     text-align: justify;
+    font-weight: 300;
+    color: #000;
 }
+
+.texto_info
+{
+    font-size: 1em;
+    color: #000000;
+}
+
+
 .logo
 {
     width: 8%;
@@ -210,10 +226,51 @@ p{
 }
 
 
+hr.style-six {
+padding: 0;
+border: none;
+height: 1px;
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+color: #000000;
+text-align: center;
+}
 
+hr.style-six:after {
+content:" ";
+display: inline-block;
+position: relative;
+top: -1.2em;
+font-size: 1.1em;
+padding: 0 1em;
+/*background: #fff url(../img/Logo/logo.png) no-repeat scroll center;*/
+background-size: 25px 25px;
+height: 45px;
+}
 
+.centrar_texto
+{
+    text-align: center;
+}
+.social_arriba
+{
+    font-size: 1.5em;
+}
 
-
+.face:hover
+{
+    color: #3b5998;
+}
+.twit:hover
+{
+    color: #00aced;
+}
+.linkedin:hover
+{
+    color: #007bb6;
+}
 
 
 
@@ -288,8 +345,9 @@ p{
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        /*float: left;*/
+        
+        text-align: center;
     }
 
     .main aside {
@@ -470,8 +528,10 @@ p{
 
     background-color:  #3C3C3C;
     color: #fff;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-bottom: 15px;
+
+   
 
 
 }
@@ -613,6 +673,18 @@ p{
         width: 100%;
     }
 }
+
+
+/*  GRID OF FLEXBOX   ============================================================================= */
+
+
+
+
+
+
+
+
+
 
 
 
