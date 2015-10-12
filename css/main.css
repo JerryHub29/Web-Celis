@@ -144,9 +144,17 @@ nav a:hover {
 }
 
 .main article h1 {
-    font-size: 2.2em;
-    font-weight: 100;
-    color: #2A4D68;
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #0b243b;
+
+   
+}
+.main article h2
+{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #000000; 
 }
 
 .main aside {
@@ -177,20 +185,22 @@ p{
     text-align: justify;
     font-weight: 300;
     color: #000;
+    
 }
 
 .texto_info
 {
-    font-size: 1em;
-    color: #000000;
+    /*font-size: 2em;
+    color: #000000;*/
 }
 
 
 .logo
 {
-    width: 8%;
-    margin-left: 46%;
-    margin-right: 46%;
+    
+    /*background-color: red;*/
+
+    
 }
 /*background-image: url("../img/Logo/logo.png");*/
 
@@ -234,21 +244,14 @@ background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75),
 background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-color: #000000;
+/*color: #ffffff;*/
 text-align: center;
+
+width: 30%;
+
 }
 
-hr.style-six:after {
-content:" ";
-display: inline-block;
-position: relative;
-top: -1.2em;
-font-size: 1.1em;
-padding: 0 1em;
-/*background: #fff url(../img/Logo/logo.png) no-repeat scroll center;*/
-background-size: 25px 25px;
-height: 45px;
-}
+
 
 .centrar_texto
 {
@@ -271,7 +274,56 @@ height: 45px;
 {
     color: #007bb6;
 }
+.logo_img {
+   
 
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+.logo_img img
+{
+    width: 40%;
+    height: 10%;
+}
+
+
+
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+  align-items:center;
+
+}
+
+.flex-item {
+  
+  padding: 4px;
+  width: 500px;
+  
+  margin-top: 10px;
+  line-height: 22px;
+  
+  
+  
+  text-align: center;
+
+
+
+
+}
 
 
 /* ==========================================================================
