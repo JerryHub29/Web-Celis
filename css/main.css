@@ -257,6 +257,9 @@ width: 30%;
 {
     text-align: center;
 }
+.left_texto{
+    text-align: left;
+}
 .social_arriba
 {
     font-size: 1.5em;
@@ -304,7 +307,7 @@ width: 30%;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 
-  align-items:center;
+  align-items:flex-start;
 
 }
 
@@ -324,6 +327,12 @@ width: 30%;
 
 
 }
+.flex-item ul{
+    text-align: left;
+}
+.flex-item h2 span{
+    text-align: left;
+}
 
 
 /* ==========================================================================
@@ -332,9 +341,19 @@ width: 30%;
 
 @media only screen and (min-width: 480px) {
 
+/*==pantalla a la mitad==*/
+.main article {
+        /*float: left;*/
+        
+        text-align: center;
+}
+/*=======================*/
+
+
 /* ====================
-    INTERMEDIATE: Menu
+    INTERMEDIATE: Menu   
    ==================== */
+
 
     nav a {
         float: left;
@@ -371,6 +390,8 @@ width: 30%;
     WIDE: CSS3 Effects
    ==================== */
 
+
+
     .header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
@@ -396,11 +417,13 @@ width: 30%;
     WIDE: Main
    ============ */
 
+    /*==pantalla grande==*/
     .main article {
         /*float: left;*/
-        
+
         text-align: center;
     }
+/*=======================*/
 
     .main aside {
         float: right;
@@ -411,6 +434,8 @@ width: 30%;
 }
 
 @media only screen and (min-width: 1140px) {
+
+
 
 /* ===============
     Maximal Width
@@ -565,6 +590,9 @@ width: 30%;
 }
 
 
+.img_present{
+    width: 100%;
+}
 
 /* - - - - - - - - - - - - - - -  Slider END  - - - - - - - - - - - - - - - */
 

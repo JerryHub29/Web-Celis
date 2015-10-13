@@ -23,6 +23,18 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-check-alt:before {
+	content: "\e800";
+}
+.icon-share:before {
+	content: "\e801";
+}
+.icon-move:before {
+	content: "\e802";
+}
+.icon-list:before {
+	content: "\e803";
+}
 .icon-phone:before {
 	content: "\e600";
 }
@@ -31,6 +43,12 @@
 }
 .icon-location2:before {
 	content: "\e602";
+}
+.icon-shield:before {
+	content: "\e804";
+}
+.icon-earth:before {
+	content: "\e805";
 }
 .icon-facebook3:before {
 	content: "\e603";
@@ -41,3 +59,5 @@
 .icon-linkedin:before {
 	content: "\e605";
 }
+
+
