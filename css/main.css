@@ -105,6 +105,7 @@ body {
     MOBILE: Menu
    ============== */
 
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -165,7 +166,7 @@ nav a:hover {
 
 .footer-container footer {
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
 
     font-size: 0.8em;
 }
@@ -433,10 +434,12 @@ width: 30%;
 
     nav a {
         float: left;
-        width: 27%;
-        margin: 0 1.7%;
+        width: 20%;        
+        margin: 0 0.5%;
         padding: 7px 2%;
         margin-bottom: 0;
+
+        font-size: 0.8em;
     }
 
     nav li:first-child a {
@@ -491,7 +494,7 @@ width: 30%;
 
     nav {
         float: right;
-        width: 38%;
+        width: 65%;
     }
 
 /* ============
@@ -516,11 +519,16 @@ width: 30%;
 
 @media only screen and (min-width: 1140px) {
 
+nav{
+    width: 50%;
+}
+
 .logo_img img
 {
     width: 40%;
     height: 10%;
 }
+
 
 /* ===============
     Maximal Width
