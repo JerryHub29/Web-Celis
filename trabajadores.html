@@ -35,7 +35,28 @@
         <link rel="stylesheet" href="style.css">
         <!-- FIN Icon Fonts -->
 
-        
+        <!-- Script para mantener barra -->
+        <script>
+            posicionarMenu();
+
+            $(window).scroll(function() {    
+            posicionarMenu();
+            });
+
+            function posicionarMenu() {
+            var altura_del_header = $('.header').outerHeight(true);
+            var altura_del_menu = $('.gris').outerHeight(true);
+
+            if ($(window).scrollTop() >= altura_del_header){
+            $('.gris').addClass('fixed');
+            $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+            } else {
+            $('.gris').removeClass('fixed');
+            $('.wrapper').css('margin-top', '0');
+            }
+            }
+        </script>
+        <!-- ====FINScript para mantener barra=== -->
 
     
 

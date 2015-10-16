@@ -145,8 +145,9 @@ nav a:hover {
 
 .main article h1 {
     font-size: 2.4em;
-    font-weight: 700;
+    font-weight: 900;
     color: #0b243b;
+
 
    
 }
@@ -185,6 +186,7 @@ p{
     text-align: justify;
     font-weight: 300;
     color: #000;
+    line-height: 2;
     
 }
 
@@ -301,7 +303,11 @@ width: 30%;
 .gris
 {
     background-color: #dddddd;
+    width: 100%;
+    z-index: 1;
 }
+.fixed{position:fixed; top:0}
+
 .flex-container {
   padding: 0;
   margin: 0;

@@ -35,8 +35,28 @@
         <link rel="stylesheet" href="style.css">
         <!-- FIN Icon Fonts -->
 
-        
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha256-sHwgyDk4CGNYom267UJX364ewnY4Bh55d53pxP5WDug= sha512-mkkeSf+MM3dyMWg3k9hcAttl7IVHe2BA1o/5xKLl4kBaP0bih7Mzz/DBy4y6cNZCHtE2tPgYBYH/KtEjOQYKxA==" crossorigin="anonymous">
+        <!-- Script para mantener barra -->
+        <script>
+            posicionarMenu();
+
+            $(window).scroll(function() {    
+            posicionarMenu();
+            });
+
+            function posicionarMenu() {
+            var altura_del_header = $('.header').outerHeight(true);
+            var altura_del_menu = $('.gris').outerHeight(true);
+
+            if ($(window).scrollTop() >= altura_del_header){
+            $('.gris').addClass('fixed');
+            $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+            } else {
+            $('.gris').removeClass('fixed');
+            $('.wrapper').css('margin-top', '0');
+            }
+            }
+        </script>
+        <!-- ====FINScript para mantener barra=== -->
     
 
     </head>
