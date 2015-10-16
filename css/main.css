@@ -192,6 +192,7 @@ p{
 {
     /*font-size: 2em;
     color: #000000;*/
+    text-align: left;
 }
 
 
@@ -260,6 +261,10 @@ width: 30%;
 .left_texto{
     text-align: left;
 }
+.arriba_margin_20
+{
+    margin-top: 200px;
+}
 .social_arriba
 {
     font-size: 1.5em;
@@ -286,14 +291,17 @@ width: 30%;
 }
 .logo_img img
 {
-    width: 40%;
+    width: 65%;
     height: 10%;
 }
 
 
 
 
-
+.gris
+{
+    background-color: #dddddd;
+}
 .flex-container {
   padding: 0;
   margin: 0;
@@ -309,7 +317,9 @@ width: 30%;
 
   align-items:flex-start;
 
+
 }
+
 
 .flex-item {
   
@@ -321,9 +331,9 @@ width: 30%;
   
   
   
-  text-align: center;
+    text-align: center;
 
-
+    
 
 
 }
@@ -332,6 +342,60 @@ width: 30%;
 }
 .flex-item h2 span{
     text-align: left;
+}
+
+.flex-item-contacto
+{
+
+    padding: 4px;
+    width: 300px;
+
+  
+    margin-top: 10px;
+    line-height: 22px;
+    text-align: center;
+
+
+}
+.flex-item-contacto a
+{
+    text-decoration: none;
+    color: #0b243b;
+}
+.flex-item-contacto a:hover
+{
+    color:#006699;
+    
+}
+
+
+.2lineas
+{
+    line-height: 2;
+    padding: 20px;
+    background-color: red;
+}
+
+
+.flex-item-100
+{
+    padding: 4px;
+    width: 100%;
+
+  
+    margin-top: 10px;
+    line-height: 22px;
+
+}
+.flex-item-50
+{
+    padding: 4px;
+    width: 50%;
+
+  
+    margin-top: 10px;
+    line-height: 22px;
+
 }
 
 
@@ -346,6 +410,12 @@ width: 30%;
         /*float: left;*/
         
         text-align: center;
+}
+
+.logo_img img
+{
+    width: 60%;
+    height: 10%;
 }
 /*=======================*/
 
@@ -386,6 +456,11 @@ width: 30%;
 
 @media only screen and (min-width: 768px) {
 
+.logo_img img
+{
+    width: 40%;
+    height: 10%;
+}
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
@@ -435,7 +510,11 @@ width: 30%;
 
 @media only screen and (min-width: 1140px) {
 
-
+.logo_img img
+{
+    width: 40%;
+    height: 10%;
+}
 
 /* ===============
     Maximal Width
@@ -606,11 +685,11 @@ width: 30%;
     padding: 0px;    
     margin: 0px;
 
-    background-color:  #3C3C3C;
+    background-color: #0b243b;;
     color: #fff;
     font-size: 0.8em;
     margin-bottom: 15px;
-
+    height: 1px;
    
 
 
@@ -701,6 +780,7 @@ width: 30%;
     clear: both;
     padding: 0px;
     margin: 0px;
+
 }
 
 /*  COLUMN SETUP  */
@@ -725,8 +805,18 @@ width: 30%;
     zoom:1; /* For IE 6/7 */
 }
 .hola{
-    padding-top: 10px;
+    padding-top: 30px;
+    font-size: 1.2em;
 }    
+.hola a
+{
+    text-decoration: none;
+    color: white;
+}
+.hola a:hover
+{
+    text-decoration: underline;
+} 
 .span_3_of_3 {
     width: 100%; 
 }
