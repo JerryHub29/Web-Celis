@@ -309,6 +309,17 @@ width: 30%;
 }
 .fixed{position:fixed; top:0}
 
+.contacto
+{
+    vertical-align: middle;
+}
+.contacto a
+{
+    font-size: 0.9em;
+    
+}
+
+
 .flex-container {
   padding: 0;
   margin: 0;
@@ -819,11 +830,13 @@ nav{
     zoom:1; /* For IE 6/7 */
 }
 .hola{
+    display:block;    
     padding-top: 30px;
     font-size: 1.2em;
 }    
 .hola a
 {
+    line-height: 1.3;
     text-decoration: none;
     color: white;
 }
