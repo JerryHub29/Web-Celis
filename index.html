@@ -13,13 +13,20 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="msvalidate.01" content="0A5DC8004B4E903975EF682D5A7BB5BB" />
+
         <!-- Favicon -->
         <link rel="apple-touch-icon" href="img/favicon/apple-icon.png">
         <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
+        
+        <!-- ESTILOS -->
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <!-- FIN ESTILOS -->
+
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
@@ -71,28 +78,29 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
         
         <!-- Seccion de Contacto -->
         <div class="flex-container gris">
-            <div class="flex-item-contacto left">
+            <div class="flex-item-contacto tel">
                 <span class="icon-phone contacto">                    
-                    <a href="tel:55340097777">55340097777</a>
+                    <a href="tel:70459694">70459694</a>
                 </span>    
             </div>
-            <div class="flex-item-contacto contacto">
-                <span class="icon-phone">
+            <div class="flex-item-contacto tel">
+                <span class="icon-phone contacto">
                     <a href="tel:5534153483">5534153483</a>
                 </span>
             </div>
-            <div class="flex-item-contacto">
+            <div class="flex-item-contacto mail">
                 <span class="icon-envelop contacto">
                     <a href="mailto:contacto@celislezamaabogados.com">contacto@celislezamaabogados.com</a>
                 </span>
             </div>
-            <div class="flex-item-contacto">
+            <div class="flex-item-contacto tel">
                 <div class="social_arriba contacto">
                     <a href="https://www.facebook.com/celislezamaabogados/timeline" target="_blank"><span class="icon-facebook3 face"></span></a>
-                    <a href="http://www.twitter.com" target="_blank"><span class="icon-twitter3 twit"></span></a>
+                    <a href="https://twitter.com/clabogadosmx" target="_blank"><span class="icon-twitter3 twit"></span></a>
                     <a href="http://www.linkedin.com" target="_blank"><span class="icon-linkedin linkedin"></span></a>
                 </div>
             </div>                      
@@ -128,17 +136,17 @@
         
          <!-- Slider -->
         
-        <div>
+        <!-- <div>
             <img src="img/slider/3 copia.jpg" width="100%" height="10%" />
-        </div>
-        <!-- <div id="slideshow">    
-            <ul class="bxslider">   
-                <li><img src="img/slider/9.jpg" /></li>                                    
-                <li><img src="img/slider/3.jpg" /></li>                       
-                <li><img src="img/slider/7.jpg" /></li>                       
-                <li><img src="img/slider/8.jpg" /></li>                       
-            </ul>
         </div> -->
+        <div id="slideshow">    
+            <ul class="bxslider">   
+                <li><img src="img/slider/14.jpg" /></li>                                    
+                <li><img src="img/slider/13.jpg" /></li>                       
+                <li><img src="img/slider/12.jpg" /></li>                       
+                <li><img src="img/slider/11.jpg" /></li>                       
+            </ul>
+        </div>
         
         <!-- FIN Slider -->
 
@@ -160,7 +168,7 @@
                     </header>
                     <ul class="flex-container">  
                         <li class="flex-item">
-                            <img src="img/varios/vision.jpg">
+                            <img src="img/varios/politica.jpg">
                         </li>  
                         <li class="flex-item">
                             <p>Misión: Defender las unidades económicas que generan empleo en nuestro país.</p>
@@ -177,7 +185,7 @@
                             <p>Defender las unidades económicas mediante la prevención de riesgos laborales, contando con un equipo altamente especializado en la materia para brindar calidad en el servicio, salvaguardando los recursos económicos de nuestros clientes mediante el cumplimiento de requisitos y procesos de mejora continua.</p>
                         </li>  
                         <li class="flex-item">
-                            <img src="img/varios/politica.jpg">
+                            <img src="img/varios/vision.jpg">
                         </li>                                      
                     </ul>
                 </article>
@@ -293,13 +301,13 @@
                             <a href="https://goo.gl/maps/CRFdjX9F1N52" target="_blank">Calle Morelia 38, Despacho 304, Col Roma Norte, Delegacion Cuauhtemoc, 06700 Ciudad de México, D.F.</a>
                         </div>                    
                         <div class="icon-phone hola">
-                            <a href="tel:55340097777">55340097777</a>
+                            <a href="tel:70459694">70459694</a>                            
                         </div>
                         <div class="icon-phone hola">
                             <a href="tel:5534153483">5534153483</a>
                         </div>
                         <div class="icon-phone hola">
-                            <a href="tel:70459694">70459694</a>
+                            <a href="tel:55340097777">55340097777</a>
                         </div>
                         <div class="icon-envelop hola">
                             <a href="mailto:contacto@celislezamaabogados.com">contacto@celislezamaabogados.com</a>
@@ -314,6 +322,17 @@
 
         </div>
         <!-- FIN Pie de Pagina -->
+
+
+        <!-- Slider Script -->   
+        <script type="text/javascript">
+            $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true
+            });
+        </script>
+        <!-- FIN Slider Script -->  
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -332,14 +351,7 @@
         </script>
         <!-- FIN Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
-        <!-- Slider Script -->   
-        <script type="text/javascript">
-            $('.bxslider').bxSlider({
-            auto: true,
-            autoControls: true
-            });
-        </script>
-        <!-- FIN Slider Script -->  
+       
 
 
 
